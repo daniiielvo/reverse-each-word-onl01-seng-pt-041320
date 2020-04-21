@@ -9,6 +9,7 @@ newarray.join(" ")
 end
 
 def reverse_each_word(words)
+  newarray = []
   array=words.split (" ")
   array.collect do |word|
     newarray << word.reverse
